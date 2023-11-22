@@ -8,4 +8,5 @@
     </style>
 
     <style name="Theme.LoginSignupAuth" parent="Base.Theme.LoginSignupAuth" />
+    <style name="Theme.LandmarkRecognitionTensorflow" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>
