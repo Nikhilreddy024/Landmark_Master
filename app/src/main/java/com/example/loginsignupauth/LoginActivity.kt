@@ -44,5 +44,10 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this,SignupActivity::class.java))
             finish()
         }
+
+        binding.quizbutton.setOnClickListener {
+            startActivity(Intent(this,quizActivity::class.java))
+            finish()
+        }
     }
 }

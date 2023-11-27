@@ -5,10 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_background"
+    android:background="@drawable/tot6"
     android:padding="16dp"
     tools:context=".SignupActivity">
-    
+
     <EditText
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -70,11 +70,16 @@
         app:layout_constraintTop_toBottomOf="@+id/signupButton"
         app:layout_constraintBaseline_toBottomOf="parent"/>
 
-
-
-
-
-
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="423dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="269dp"
+        app:layout_constraintBottom_toTopOf="@+id/signupEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tek11" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
