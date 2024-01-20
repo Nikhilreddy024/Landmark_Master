@@ -5,25 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/tic10"
     android:padding="16dp"
     tools:context=".quizActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="430dp"
+        android:layout_marginTop="300dp"
         android:orientation="vertical"
         android:padding="10dp">
 
         <TextView
             android:id="@+id/questionText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="89dp"
             android:layout_marginBottom="16dp"
             android:padding="4dp"
             android:text="Question\nquestion"
             android:textAlignment="center"
-            android:textColor="@color/pink"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -32,7 +33,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:backgroundTint="#68EDEBEB"
             android:text="Option 2"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <Button
@@ -40,7 +43,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:backgroundTint="#68EDEBEB"
             android:text="Option 2"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <Button
@@ -48,7 +53,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
+            android:backgroundTint="#68EDEBEB"
             android:text="Option 2"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -62,7 +69,7 @@
         android:enabled="false"
         android:padding="10dp"
         android:text="Restart Quiz"
-        android:textColor="@color/teal_200"
+        android:textColor="@color/white"
         android:textSize="16sp" />
 
 </LinearLayout>
